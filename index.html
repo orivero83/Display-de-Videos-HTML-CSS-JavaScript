@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display de Videos</title>
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="videos">
+        <video id="slider" autoplay muted loop>
+            <source src="./videos/video1.mp4" type="video/mp4">
+        </video>
+
+        <ul class="navigation">
+            <li onclick="videoUrl('./videos/video1.mp4')"><img src="./Thumb/Thu1.png" alt="Videos HTML CSS JS"></li>
+            <li onclick="videoUrl('./videos/video2.mp4')"><img src="./Thumb/Thu2.png" alt="Videos HTML CSS JS"></li>
+            <li onclick="videoUrl('./videos/video3.mp4')"><img src="./Thumb/Thu3.png" alt="Videos HTML CSS JS"></li>
+            <li onclick="videoUrl('./videos/video4.mp4')"><img src="./Thumb/Thu4.png" alt="Videos HTML CSS JS"></li>
+        </ul>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
